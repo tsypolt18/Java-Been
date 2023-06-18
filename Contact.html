@@ -1,41 +1,69 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, inital-scale=1.0" />
-<title>Next Website</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
+<title>Java Been</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+
 <body>
-	<h1>Contact Us</h1>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-			<a class="nav-link" href="About Us.html">About Us
-          </a>
-        </li>
-        <li class="nav-item">
-			<a class="nav-link" href="Find a store.html">Find a store</a>
-        </li>
-		<li class="nav-item">
-			<a class="nav-link" href="Contact.html">Contact</a>
-        </li>
-      </ul>
+	
+<nav class="navbar navbar-expand-lg">
+	<div class="container fluid">
+		<div class="navbar">
+				<a aria-current="page" href="Home.html">
+			<img src="Images/jb-logo one.png" alt="LOGO" width="80" height="74">
+				<a href="Menu.html">Menu</a>
+				<a href="Shop.html">Shop</a>
+				<a href="About Us.html">About Us</a>
+				<div class="navbar-right">
+					<a href="Find a Store.html">Find a Store</a>
+					<a href="Contact.html">Contact</a>
+				</div>
+			</a>
+		</div>
+	</div>
+</nav>
+<div class="container">
+	<div class="form">
+	<form action="Contact.html">
+	<div class="row">
+		<div class="col-25">
+			<label for="fname">First Name</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="fname" name="firstname" placeholder="Your Name..">
+		</div>
+		</div>
+	<div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     </div>
   </div>
-</nav>
-
+		<div class="row">
+    <div class="col-25">
+      <label for="Email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" Email name="Email" placeholder="Your Email..">
+    </div>
+  </div>
+	<div class="row">
+    <div class="col-25">
+      <label for="pword">Password</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="pword" name="password" placeholder="Create Password..">
+    </div>
+  </div>
+	<div class="row">
+		<input type="submit" value="Submit">
+		</div>
+	</form>
+	</div>
+	</div>
 </body>
 </html>
